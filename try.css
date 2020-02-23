@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    padding:20px;
+}
+.form td{
+    padding:2px 40px 20px 0px;
+}
+.primary-form select{
+    width:350px;
+    height:30px;
+}
+.upload, .primary-btn{
+    padding:5px 45px 5px 45px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+.upload:hover,.primary-btn:hover{
+    cursor:pointer;
+}
+.primary-btn{
+    margin-top:30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-left:200px;
+    background:#ffffff;
+}
+
+@font-face {
+    font-family: HP Simplified;
+    src: url(${pageContext.request.contextPath}/resources/imgs/hp-simplified-556.ttf);
+    font-weight: bold;
+}
+#myModal{
+    font-family: HP Simplified;
+    background:rgba(255,255,255,.15); 
+    width: 100%;
+    font-color: #ffffff;
+    font-size: 100%;
+}
+div #div1{
+    font-family: HP Simplified;
+    background:#0197D6;
+    width: 100%;
+    font-color: #ffffff;
+    font-size: 100%;
+}
+.container div {
+    display: inline-block;
+    font-color: #ffffff;
+}
+img {
+    display: inline;
+    width: 160px;
+    height: 80px;
+}
+h1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right:200px;
+}
+.datatable tr th{
+padding:5px;
+}
+.datatable tr td{
+padding:5px;
+}
+.navbar {
+    overflow: hidden;
+    top: 50; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-size: 100%;
+}
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: bottom;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Main content */
+.main{
+    font-family: HP Simplified;
+    font-size: 100%;
+    background: #ffffff;
+    display: inline-block;
+    top:400px; right:400px
+}
+.modal.fade{
+    display: none;
+}
+div .model-dialog{background-color:#ffffff;}
